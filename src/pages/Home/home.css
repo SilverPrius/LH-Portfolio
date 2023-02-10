@@ -1,6 +1,6 @@
-
 .my-name {
     font-size: 5rem;
+    text-align: center;
 }
 
 .my-roles {
@@ -13,5 +13,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #85BB65;
   }
+  

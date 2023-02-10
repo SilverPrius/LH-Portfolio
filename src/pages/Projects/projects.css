@@ -1,0 +1,15 @@
+.projects-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-inner {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.projects-title {
+    font-size: 4rem;
+    padding: 6rem 0 3rem 0;
+    text-align: right;
+}
