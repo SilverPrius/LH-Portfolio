@@ -1,7 +1,7 @@
 import '../components/nav.css'
 
 import { Link } from "react-router-dom"
-
+import { FaBars } from '/fa'
 
 export default function Nav() {
     return (
@@ -18,6 +18,9 @@ export default function Nav() {
             <Link to="/contact">
                 <div>Contact</div>
             </Link>
+            <div className='hamburger'>
+                <Fabars />
+            </div>
         </div>
     )
 }
