@@ -10,6 +10,10 @@ body {
   width: 100%;
 }
 
+h1, h4, p, a {
+  color: #222;
+  text-decoration: none;
+}
 
 .btn {
   padding: 12px 32px;
@@ -31,4 +35,8 @@ body {
   background: #e7ebd4;
   color: #fff;
   transition: 0.3s;
+}
+
+ul {
+  list-style: none;
 }
