@@ -21,10 +21,10 @@ const Projects = () => {
                     <br></br><img src={project.image} alt={project.title} onError={(e) => console.log(e.target.error)} className='project-image' />
                     <div className="logo">
                         <a href={project.link} >
-                            <FontAwesomeIcon className="external-link-logo" icon={faExternalLinkAlt} />
+                            <FontAwesomeIcon className="external-link-logo" icon={faExternalLinkAlt} title="Live Demo" />
                         </a>
                         <a href={project.github} >
-                            <FontAwesomeIcon className="github-logo" icon={faGithub} />
+                            <FontAwesomeIcon className="github-logo" icon={faGithub} title="Repository" />
                         </a>
                     </div>
                 </div>
