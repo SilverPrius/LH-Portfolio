@@ -1,8 +1,6 @@
 import '../Projects/projects.css'
 import React from 'react'
-import ReactDOM from 'react-dom'
 import { projects } from '../../components/data'
-import { useState } from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
