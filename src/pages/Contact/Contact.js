@@ -1,7 +1,11 @@
-const Contact = () => {
+import '../Contact/contact.css'
+
+export default function Contact() {
   return (
-    <div>This is my Contact page</div>
+    <div className='contact-main'>
+      <div className='contact-inner'>
+      <div className='contact-title'>Let's Connect 💡</div>
+      </div>
+    </div>
   )
 }
-
-export default Contact
