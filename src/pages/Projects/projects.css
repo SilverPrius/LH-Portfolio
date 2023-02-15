@@ -1,15 +1,60 @@
 .projects-main {
     display: flex;
     flex-direction: column;
-}
-
-.projects-inner {
-    width: 50%;
+  }
+  
+  .projects-inner {
+    width: 60%;
     margin: 0 auto;
-}
-
-.projects-title {
+  }
+  
+  .projects-title {
     font-size: 4rem;
     padding: 6rem 0 3rem 0;
     text-align: right;
-}
+  }
+  
+  .project-image {
+    height: 500px;
+    width: 50%;
+    object-fit: cover;
+  }
+  
+  .project-description {
+    font-size: 1.2rem;
+  }
+  
+  .projects {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    padding: 20px 30px;
+    background-color: #999999;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    gap: 1.5rem;
+  }
+  
+  .project-container.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .logos {
+    font-size: 2rem;
+  } 
+  
