@@ -13,7 +13,7 @@ export default function Nav() {
 
     return (
         <div className="header">
-            <Link to="/" onClick={closeMobileMenu}><h1 className='logo'>LH</h1></Link>
+            <Link to="/" onClick={closeMobileMenu}><h1 className='lh-logo'>LH</h1></Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>
                     <Link to="/" onClick={closeMobileMenu}><div>Home</div></Link>
