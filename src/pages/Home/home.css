@@ -1,17 +1,62 @@
 .my-name {
     font-size: 5rem;
     text-align: center;
-}
-
-.my-roles {
+  }
+  
+  .my-roles {
     font-size: 4rem;
-}
-
-.home-main {
-    height:100vh;
+  }
+  
+  .home-main {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  
+  /* Mobile Styles */
+  @media screen and (max-width: 767px) {
+    .my-name {
+      font-size: 3rem;
+    }
+  
+    .my-roles {
+      font-size: 2rem;
+    }
+  
+    .home-main {
+      height: 80vh;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .my-name {
+      font-size: 4rem;
+    }
+  
+    .my-roles {
+      font-size: 3rem;
+    }
+  
+    .home-main {
+      height: 80vh;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media screen and (min-width: 1024px) {
+    .my-name {
+      font-size: 5rem;
+    }
+  
+    .my-roles {
+      font-size: 4rem;
+    }
+  
+    .home-main {
+      height: 100vh;
+    }
   }
   
