@@ -26,13 +26,13 @@ const Projects = () => {
 
                   <a href={project.link} ><button className='btn'>Website
 
-                    <FontAwesomeIcon className="external-link-logo" icon={faExternalLinkAlt} title="Website" />
+                    <FontAwesomeIcon className="external-link-logo" icon={faExternalLinkAlt} />
                   </button></a>
 
                   
 
                   <a href={project.github} ><button className='btn'>Repository
-                    <FontAwesomeIcon className="github-logo" icon={faGithub} title="Repository" />
+                    <FontAwesomeIcon className="github-logo" icon={faGithub} />
                     </button></a>
                 </div>
 
