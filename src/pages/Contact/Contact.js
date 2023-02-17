@@ -9,10 +9,10 @@ export default function Contact() {
     e.preventDefault();
 
     emailjs.sendForm(
-      'process.env.REACT_APP_SERVICE_ID', //'YOUR_SERVICE_ID'
-      'process.env.REACT_APP_TEMPLATE_ID', //'YOUR_TEMPLATE_ID'
+      'process.env.REACT_APP_SERVICE_ID', //'SERVICE_ID'
+      'process.env.REACT_APP_TEMPLATE_ID', //'TEMPLATE_ID'
       form.current,
-      'process.env.REACT_APP_USER_ID') //YOUR_PUBLIC_KEY'
+      'process.env.REACT_APP_USER_ID') //PUBLIC_KEY'
       .then((result) => {
         console.log(result.text);
       }, (error) => {
@@ -32,7 +32,7 @@ export default function Contact() {
               name="sender_name" required />
             <input type="email"
               placeholder="Email"
-              name="sender_email" required />
+              name="user_email" required />
             <input type="text"
               placeholder="Subject"
               name="subject" required />
