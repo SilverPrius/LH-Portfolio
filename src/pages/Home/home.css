@@ -1,62 +1,111 @@
 .my-name {
-    font-size: 5rem;
-    text-align: center;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.home-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  box-sizing: content-box;
+  height: 7rem;
+  display: flex;
+  border-radius: 8px;
+}
+
+.rotating-words {
+  overflow: hidden;
+  font-size: 6rem;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  color: black;
+  animation: spin_words 12s infinite;
+}
+
+@keyframes spin_words {
+  10% {
+    transform: translateY(-112%);
   }
-  
+
+  25% {
+    transform: translateY(-100%);
+  }
+
+  35% {
+    transform: translateY(-212%);
+  }
+
+  50% {
+    transform: translateY(-200%);
+  }
+
+  60% {
+    transform: translateY(-312%);
+  }
+
+  75% {
+    transform: translateY(-300%);
+  }
+
+  85% {
+    transform: translateY(-412%);
+  }
+
+  100% {
+    transform: translateY(-400%);
+  }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 767px) {
+  .my-name {
+    font-size: 3rem;
+  }
+
+  .my-roles {
+    font-size: 2rem;
+  }
+
+  .home-main {
+    height: 80vh;
+  }
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .my-name {
+    font-size: 4rem;
+  }
+
+  .my-roles {
+    font-size: 3rem;
+  }
+
+  .home-main {
+    height: 80vh;
+  }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1024px) {
+  .my-name {
+    font-size: 5rem;
+  }
+
   .my-roles {
     font-size: 4rem;
   }
-  
+
   .home-main {
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
-  
-  /* Mobile Styles */
-  @media screen and (max-width: 767px) {
-    .my-name {
-      font-size: 3rem;
-    }
-  
-    .my-roles {
-      font-size: 2rem;
-    }
-  
-    .home-main {
-      height: 80vh;
-    }
-  }
-  
-  /* Tablet Styles */
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .my-name {
-      font-size: 4rem;
-    }
-  
-    .my-roles {
-      font-size: 3rem;
-    }
-  
-    .home-main {
-      height: 80vh;
-    }
-  }
-  
-  /* Desktop Styles */
-  @media screen and (min-width: 1024px) {
-    .my-name {
-      font-size: 5rem;
-    }
-  
-    .my-roles {
-      font-size: 4rem;
-    }
-  
-    .home-main {
-      height: 100vh;
-    }
-  }
-  
+}
