@@ -21,6 +21,15 @@
 .rotating-words {
   overflow: hidden;
   font-size: 6rem;
+  position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+ 
+}
+
+@media only screen and (max-width: 480px) {
+  
 }
 
 span {
@@ -71,8 +80,9 @@ span {
     font-size: 3rem;
   }
 
-  .my-roles {
-    font-size: 2rem;
+  .rotating-words {
+    font-size: 2.5rem;
+    height: 3.5rem;
   }
 
   .home-main {
@@ -86,8 +96,9 @@ span {
     font-size: 4rem;
   }
 
-  .my-roles {
-    font-size: 3rem;
+  .rotating-words {
+    font-size: 3.5rem;
+    height: 4.5rem;
   }
 
   .home-main {
