@@ -30,6 +30,9 @@ export default function Contact() {
             <input type="text"
               placeholder="Full Name"
               name="sender_name" required />
+              <input type="text"
+              placeholder="Phone Number"
+              name="sender_phone" required />
             <input type="email"
               placeholder="Email"
               name="user_email" required />
@@ -37,6 +40,7 @@ export default function Contact() {
               placeholder="Subject"
               name="subject" required />
             <textarea name='message'
+            placeholder="Message"
               cols='30' rows='10'></textarea>
             <button className='btn' type='submit'>Send</button>
           </form>
