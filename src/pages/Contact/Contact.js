@@ -138,43 +138,36 @@ const Contact = () => {
     <div className='contact-main'>
       <div className='contact-inner'>
         <form
-          name="contact v2"
-          method="post"
+          name="contact"
+          method="POST"
           data-netlify="true"
-          onSubmit="submit"
           data-netlify-honeypot="bot-field"
         >
-          <input type="hidden" name="form-name" value="contact v2" />
-
+          <input type="hidden" name="form-name" value="contact" />
           <div hidden>
             <input name="bot-field" />
           </div>
-            <div className='contact-title'>Let's Connect 💡</div>
+          <div className='contact-title'>Let's Connect 💡</div>
           <div>
             <label>First name<br />
               <input type="text" name="first-name" />
             </label>
           </div>
-
           <div>
             <label>Last name<br />
               <input type="text" name="last-name" />
             </label>
           </div>
-
           <div>
-            <label htmlFor="email" >Email</label><br />
+            <label htmlFor="email">Email</label><br />
             <input id="email" type="email" name="email" />
           </div>
-
           <div>
             <label>Message<br />
               <textarea name="message"></textarea>
             </label>
           </div>
-
           <button type="submit">Send</button>
-
         </form>
       </div>
     </div>
@@ -182,3 +175,7 @@ const Contact = () => {
 }
 
 export default Contact
+
+
+
+
