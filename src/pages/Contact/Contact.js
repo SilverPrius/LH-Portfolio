@@ -150,24 +150,24 @@ const Contact = () => {
           <div className='contact-title'>Let's Connect 💡</div>
           <div>
             <label>First name<br />
-              <input type="text" name="first-name" />
+              <input type="text" name="first-name" required />
             </label>
           </div>
           <div>
             <label>Last name<br />
-              <input type="text" name="last-name" />
+              <input type="text" name="last-name" required  />
             </label>
           </div>
           <div>
             <label htmlFor="email">Email</label><br />
-            <input id="email" type="email" name="email" />
+            <input id="email" type="email" name="email" required  />
           </div>
           <div>
             <label>Message<br />
-              <textarea name="message"></textarea>
+              <textarea name="message"  required ></textarea>
             </label>
           </div>
-          <button type="submit">Send</button>
+          <button className='btn' type="submit">Send</button>
         </form>
       </div>
     </div>
