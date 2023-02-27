@@ -148,6 +148,7 @@ const Contact = () => {
             <input name="bot-field" />
           </div>
           <div className='contact-title'>Let's Connect 💡</div>
+          <div className='form-inputs'>
           <div>
             <label>First name<br />
               <input type="text" name="first-name" required />
@@ -164,8 +165,9 @@ const Contact = () => {
           </div>
           <div>
             <label>Message<br />
-              <textarea name="message"  required ></textarea>
+              <textarea name="message"  required cols={30} rows={10} ></textarea>
             </label>
+          </div>
           </div>
           <button className='btn' type="submit">Send</button>
         </form>

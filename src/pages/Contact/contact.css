@@ -1,6 +1,7 @@
 .contact-main {
     display: flex;
     flex-direction: column;
+    padding-top: 10rem;
 }
 
 .contact-inner {
@@ -9,12 +10,12 @@
     display: flex;
     justify-content: center;
     height: 100vh;
-    align-items: center;
 }
 
 .contact-title {
     font-size: 4rem;
-    padding: 6rem 0 3rem 0;
+    padding-bottom: 3.5rem;
+    text-align: right;
 }
 
 form {
