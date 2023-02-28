@@ -56,6 +56,20 @@ p {
     font-size: 1.3rem;
 }
 
-.contact-name {
+.contact-name, .contact-info-message {
     font-size: 2rem;
+}
+
+.connected-text{
+    font-size: 3rem;
+    display: flex;
+}
+
+.contact-link {
+    color: rgb(24, 24, 187);
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+    
 }
