@@ -139,23 +139,27 @@ const Contact = () => {
       <div className='contact-inner'>
         <div className='contact-title'>Contact Me<hr></hr></div>
         <div className='contact-body'>
-          <div className='contact-info'>
-          <p className='contact-info-message'><strong>Let's Stay Connected! 💡</strong></p>
+          {/* <div className='contact-info'> */}
+            <address>
+              <p className='contact-info-message'>Let's Stay Connected</p>
+              <br />
+              
+              <p className='contact-name'><strong>Long Hoang</strong></p>
+              <br />
+              <p><strong>Phone: </strong>(510) 219 - 7788</p>
+              <br />
+              <p><strong>Email: </strong> <a className='contact-link' href={"mailto:hoangcodes@gmail.com"}>hoangcodes@gmail.com</a></p>
+              <br />
+              <p><strong>LinkedIn: </strong> <a className='contact-link' href={"https://www.linkedin.com/in/hoangcodes/"}>linkedin.com/in/hoangcodes</a></p>
+              <br />
+              <p><strong>GitHub: </strong> <a className='contact-link' href={"https://github.com/SilverPrius"}>github.com/silverprius</a></p>
+              <br />
+              <p className='contact-message'>I look forward to collaborating with you!</p>
+          {/* </div> */}
+        </address>
+        <div className='form'>
+          <div className='form-message'>Leave Me A Message</div>
           <br />
-            <p className='contact-name'><strong>Long Hoang</strong></p>
-            <br />
-            <p><strong>Phone: </strong>(510) 219 - 7788</p>
-            <br />
-            <p><strong>Email: </strong> <a className='contact-link' href={"mailto:hoangcodes@gmail.com"}>hoangcodes@gmail.com</a></p> 
-            <br />
-            <p><strong>LinkedIn: </strong> <a className='contact-link' href={"https://www.linkedin.com/in/hoangcodes/"}>linkedin.com/in/hoangcodes</a></p> 
-            <br />
-            <p><strong>GitHub: </strong> <a className='contact-link' href={"https://github.com/SilverPrius"}>github.com/silverprius</a></p> 
-            <br />
-            <p className='contact-message'>I look forward to collaborating with you!</p>
-          </div>
-
-            <div className='form'>Leave Me A Message 📝
           <form
             name="contact"
             method="POST"
@@ -192,8 +196,8 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      </div>
     </div>
+    </div >
   )
 }
 

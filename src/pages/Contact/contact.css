@@ -5,7 +5,6 @@
 }
 
 .contact-inner {
-    width: 80%;
     margin: 0 auto;
     display: flex;
     height: 100vh;
@@ -34,7 +33,6 @@ form {
 input, textarea{
     width: 100%;
     padding: .8rem;
-    /* border-radius: 1rem; */
     border: thin;
     margin: .5rem;
     font-size: 1rem;
@@ -56,7 +54,7 @@ p {
     font-size: 1.3rem;
 }
 
-.contact-name, .contact-info-message {
+.contact-name{
     font-size: 2rem;
 }
 
@@ -72,4 +70,19 @@ p {
 .contact-link:hover {
     text-decoration: underline;
     
+}
+
+.contact-info-message {
+margin-right: 15rem;
+font-size: 3rem;
+}
+
+.form-message {
+    font-size: 3rem;
+    font-style: italic;
+}
+
+.contact-message {
+    font-style: italic;
+    font-size: 1.5rem;
 }
