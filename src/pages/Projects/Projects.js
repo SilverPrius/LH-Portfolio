@@ -11,7 +11,6 @@ const Projects = () => {
     <div className='projects-main'>
       <div className='projects-inner'>
         <div className='projects-title'>MY PROJECTS<hr></hr></div>
-        
         <div className='projects'>
           {projects.map((project, index) => (
             <div key={index} className={`project-container ${index === 1 ? 'reverse' : ''}`}>
