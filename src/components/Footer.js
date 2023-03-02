@@ -11,10 +11,10 @@ export default function Footer() {
         <div>
             <Container>
                 <div className='footer'>
-                    <a href='https://github.com/SilverPrius'>
+                    <a className='footer-icons' href='https://github.com/SilverPrius'>
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
-                    <a href='https://www.linkedin.com/in/hoangcodes/'>
+                    <a className='footer-icons' href='https://www.linkedin.com/in/hoangcodes/'>
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                 </div>

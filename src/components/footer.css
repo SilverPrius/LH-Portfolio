@@ -13,7 +13,7 @@
     padding-bottom: 2rem;
 }
 
-a:hover {
-    transform: scale(1.5);
+.footer-icons:hover {
+    transform: scale(1.3);
     transition: 0.3s ease-in-out;
 }
