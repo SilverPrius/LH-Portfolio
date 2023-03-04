@@ -9,9 +9,9 @@ import ScrollReveal from 'scrollreveal';
 
 const Projects = () => {
   useEffect(() => {
-    ScrollReveal().reveal('.projects-title', { delay: 500, origin: 'left', distance: '10rem', duration: 2000, easing: 'ease-in-out' });
-    ScrollReveal().reveal('img', { delay: 1100, origin: 'bottom', distance: '10rem', duration: 1800, easing: 'ease-in-out' });
-    ScrollReveal().reveal('.project-info', { delay: 1900, duration: 2200, easing: 'ease-in-out' });
+    ScrollReveal().reveal('.projects-title', { delay: 500, duration: 3000, easing: 'ease-in-out' });
+    ScrollReveal().reveal('img', { delay: 500, origin: 'left', distance: '10rem', duration: 1800, easing: 'ease-in-out' });
+    ScrollReveal().reveal('.project-info', { delay: 500, origin: 'right', distance: '10rem',duration: 2000, easing: 'ease-in-out' });
   }, []);
 
   return (

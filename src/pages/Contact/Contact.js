@@ -1,6 +1,6 @@
 import '../Contact/contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMobileScreen, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faMobileScreen, faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
   return (
@@ -18,6 +18,8 @@ const Contact = () => {
               <br />
               <p><FontAwesomeIcon className="envelope-icon" icon={faEnvelope} /><strong> Email: </strong> <a className='contact-link' href={"mailto:hoangcodes@gmail.com"}>hoangcodes@gmail.com</a></p>
               <br />
+              <div className='resume'><p><FontAwesomeIcon className="download-icon" icon={faDownload} /><strong> Resume: </strong></p><a className='btn' id='download-btn' href="Long_Hoang_Resume.pdf" download>Download</a></div>
+              <br/>
               <p className='contact-message'>I look forward to collaborating with you!</p>
         </address>
         <div className='form'>
