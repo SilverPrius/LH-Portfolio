@@ -47,7 +47,7 @@
   padding: 3rem;
   border-radius: 20px;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   text-align: center;
   margin: auto;
   gap: 2rem;

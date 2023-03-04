@@ -1,4 +1,5 @@
-import '../Home/home.css'
+import '../Home/home.css';
+
 
 const Home = () => {
   return (
@@ -7,16 +8,16 @@ const Home = () => {
         <h1>LONG HOANG</h1>
       </div>
       <div class="wrapper">
-       <div class="rotating-words">
-           <span>Software Engineer</span>
-           <span>MERN Stack</span>
-           <span>Frontend Developer</span>
-           <span>Fullstack Developer</span>
-           <span>Software Engineer</span>
-       </div>
-   </div>
+        <div class="rotating-words">
+          <span>Software Engineer</span>
+          <span>MERN Stack</span>
+          <span>Frontend Developer</span>
+          <span>Fullstack Developer</span>
+          <span>Software Engineer</span>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

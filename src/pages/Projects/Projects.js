@@ -1,12 +1,18 @@
 import '../Projects/projects.css'
-import React from 'react'
 import { projects } from '../../components/data'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faGithub,  } from "@fortawesome/free-brands-svg-icons"
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
+import React, { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 const Projects = () => {
+  useEffect(() => {
+    ScrollReveal().reveal('.projects-title', { delay: 500, origin: 'left', distance: '10rem', duration: 2000 });
+    ScrollReveal().reveal('img', { delay: 1000, origin: 'bottom', distance: '10rem', duration: 2000 });
+  }, []);
+
   return (
     <div className='projects-main'>
       <div className='projects-inner'>
@@ -22,23 +28,22 @@ const Projects = () => {
                 <p className="project-description">{project.description}</p>
 
                 <br /><div className="project-btns">
+                  <a href={project.link}>
+                    <button className='btn'>
+                      Website
+                      <FontAwesomeIcon className="external-link-logo" icon={faExternalLinkAlt} />
+                    </button>
+                  </a>
 
-
-                  <a href={project.link} ><button className='btn'>Website
-
-                    <FontAwesomeIcon className="external-link-logo" icon={faExternalLinkAlt} />
-                  </button></a>
-
-                  
-
-                  <a href={project.github} ><button className='btn'>Repository
-                    <FontAwesomeIcon className="github-logo" icon={faGithub} />
-                    </button></a>
+                  <a href={project.github}>
+                    <button className='btn'>
+                      Repository
+                      <FontAwesomeIcon className="github-logo" icon={faGithub} />
+                    </button>
+                  </a>
                 </div>
-
               </div>
             </div>
-
           ))}
         </div>
       </div>
@@ -46,4 +51,4 @@ const Projects = () => {
   )
 }
 
-export default Projects 
+export default Projects

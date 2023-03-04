@@ -64,14 +64,14 @@ p {
     display: flex;
 }
 
-.contact-link {
+/* .contact-link {
     color: rgb(24, 24, 187);
-}
+} */
 
-.contact-link:hover {
+/* .contact-link:hover {
     text-decoration: underline;
     
-}
+} */
 
 .contact-info-message {
 margin-right: 15rem;

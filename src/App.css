@@ -1,3 +1,8 @@
+/* utility */
+html.sr .load-hidden {
+  visibility: hidden;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -40,4 +45,9 @@ h1, h4, p, a {
 
 ul {
   list-style: none;
+}
+
+/* extension */
+html.sr .widget {
+  visibility: hidden;
 }

@@ -22,6 +22,16 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ 
+        reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay:400 
+      });
+  </script>
   <title>Long Hoang's Portfolio</title>
 </head>
 
@@ -30,7 +40,7 @@
   <div id="root">
   
   <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="first-name" />
+      <input type="text" name="full-name" />
       <input type="text" name="last-name" />
       <input type="email" name="email" />
       <textarea name="message"></textarea>
