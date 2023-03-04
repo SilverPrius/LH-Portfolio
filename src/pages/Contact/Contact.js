@@ -18,7 +18,7 @@ const Contact = () => {
               <br />
               <p><FontAwesomeIcon className="envelope-icon" icon={faEnvelope} /><strong> Email: </strong> <a className='contact-link' href={"mailto:hoangcodes@gmail.com"}>hoangcodes@gmail.com</a></p>
               <br />
-              <div className='resume'><p><FontAwesomeIcon className="download-icon" icon={faDownload} /><strong> Resume: </strong></p><a className='btn' id='download-btn' href="Long_Hoang_Resume.pdf" download>Download</a></div>
+              <div className='resume'><p><FontAwesomeIcon className="download-icon" icon={faDownload} /><strong> Resume: </strong></p><a className='btn' id='download-btn' href="../assets/Long_Hoang_Resume.pdf" download>Download</a></div>
               <br/>
               <p className='contact-message'>I look forward to collaborating with you!</p>
         </address>
