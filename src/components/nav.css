@@ -11,20 +11,21 @@
 
   .nav-menu {
     display: flex;
+    width: 90vw;
+    justify-content: center;
   }
 
   .lh-logo {
     color: whitesmoke;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .nav-menu li {
     padding: 0 1rem;
   }
 
-  .nav-menu li a{
-    font-size: 3rem;
-    font-weight: 500;
+  .nav-menu li a {
+    font-size: 2.5rem;
     color: whitesmoke;
   }
 
