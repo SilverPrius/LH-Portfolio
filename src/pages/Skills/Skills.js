@@ -20,9 +20,9 @@ function Skills() {
     <div className="skills">
       <div className="skillsGrid">
         {skills.map(skill => (
-          <div key={skill.id}>
+          <div className='skill' key={skill.id}>
             <img src={skill.source} alt={skill.alt} title={skill.title} />
-            <div>{skill.title}</div>
+            <div className='skill-title'>{skill.title}</div>
           </div>
         ))}
       </div>

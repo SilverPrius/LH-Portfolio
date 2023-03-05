@@ -22,6 +22,16 @@
   }
   }
 
+  .skill {
+    padding: 1rem;
+  }
+
+  .skill-title {
+    font-size: 1.8rem;
+    padding-top: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+  }
+
   /* Medium Screens min width 641px change to 4 columns */
 @media screen and (min-width: 641px) {
     .skillsGrid{
