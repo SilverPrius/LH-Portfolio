@@ -70,14 +70,10 @@ p {
     display: flex;
 }
 
-/* .contact-link {
-    color: rgb(24, 24, 187);
-} */
-
-/* .contact-link:hover {
+.email-link:hover {
     text-decoration: underline;
-    
-} */
+    color: rgb(24, 24, 187);
+}
 
 .contact-info-message {
 margin-right: 15rem;
@@ -90,8 +86,8 @@ font-size: 3rem;
 }
 
 .contact-message {
-    font-style: italic;
     font-size: 1.5rem;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {

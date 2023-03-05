@@ -22,6 +22,9 @@ export default function Nav() {
                     <Link to="/about" onClick={closeMobileMenu}><div>About</div></Link>
                 </li>
                 <li>
+                    <Link to="/skills" onClick={closeMobileMenu}><div>Skills</div></Link>
+                </li>
+                <li>
                     <Link to="/projects" onClick={closeMobileMenu}><div>Projects</div></Link>
                 </li>
                 <li>
