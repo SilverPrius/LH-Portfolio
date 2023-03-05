@@ -14,12 +14,14 @@ const Contact = () => {
               
               <p className='contact-name'><strong>Long Hoang</strong></p>
               <br />
-              <p><FontAwesomeIcon className="mobile-icon" icon={faMobileScreen} /><strong> Phone: (510) 219 - 7788</strong></p>
+              <div className='contact-info'>
+              <p><FontAwesomeIcon className="icon" icon={faMobileScreen} /><strong> Phone: </strong>(510) 219 - 7788</p>
               <br />
-              <p><FontAwesomeIcon className="email-icon" icon={faEnvelope} /><strong> Email: </strong> <a className='email-link' href={"mailto:hoangcodes@gmail.com"}>Hoangcodes@gmail.com</a></p>
+              <p><FontAwesomeIcon className="icon" icon={faEnvelope} /><strong> Email: </strong> <a className='email-link' href={"mailto:hoangcodes@gmail.com"}>Hoangcodes@gmail.com</a></p>
               <br />
-              <div className='resume'><p><FontAwesomeIcon className="download-icon" icon={faDownload} /><strong> Resume: </strong></p><a className='btn' id='download-btn' href="../assets/Long_Hoang_Resume.pdf" download>Download</a></div>
+              <div className='resume'><p><FontAwesomeIcon className="icon" icon={faDownload} /><strong> Resume: </strong></p><a className='btn' id='download-btn' href="../assets/Long_Hoang_Resume.pdf" download>Download</a></div>
               <br/>
+              </div>
               <p className='contact-message'><strong>I look forward to collaborating with you!</strong></p>
         </address>
         <div className='form'>

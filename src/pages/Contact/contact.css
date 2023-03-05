@@ -58,11 +58,11 @@ label {
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
 }
 
 .contact-name{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .connected-text{
@@ -86,8 +86,12 @@ font-size: 3rem;
 }
 
 .contact-message {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-decoration: none;
+}
+
+.icon {
+    font-size: xx-large;
 }
 
 @media only screen and (max-width: 600px) {
