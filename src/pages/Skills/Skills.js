@@ -18,6 +18,7 @@ function Skills() {
 
   return (
     <div className="skills">
+        <div className='skills-title'>MY SKILLS<hr></hr></div>
       <div className="skillsGrid">
         {skills.map(skill => (
           <div className='skill' key={skill.id}>
