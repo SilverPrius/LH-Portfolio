@@ -1,6 +1,11 @@
 import '../About/about.css'
+import { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 const About = () => {
+    useEffect(() => {
+        ScrollReveal().reveal('.about-main', { delay: 500, origin: 'top', distance: '10rem', duration: 2000, duration: 1000, easing: 'ease-in-out'});
+      }, []);
     return (
         <div className="about-main">
             <div className='about-inner'>

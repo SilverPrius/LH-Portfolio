@@ -1,8 +1,17 @@
 import '../Contact/contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMobileScreen, faEnvelope, faDownload } from '@fortawesome/free-solid-svg-icons'
+import { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 const Contact = () => {
+
+  useEffect(() => {
+    ScrollReveal().reveal('.contact-title', { delay: 500, origin: 'top', distance: '10rem', duration: 2000});
+    ScrollReveal().reveal('address', { delay: 800, origin: 'left', distance: '10rem', duration: 1000});
+    ScrollReveal().reveal('.form', { delay: 800, origin: 'right', distance: '10rem',duration: 1000});
+  }, []);
+
   return (
     <div className='contact-main'>
       <div className='contact-inner'>
