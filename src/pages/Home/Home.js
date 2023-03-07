@@ -24,11 +24,11 @@ const Home = () => {
       
       <div class="wrapper">
         <div class="rotating-words">
-          <span>Software Engineer.</span>
           <span>Web Developer.</span>
+          <span>Software Engineer.</span>
           <span>Frontend Developer.</span>
           <span>Fullstack Developer.</span>
-          <span>Software Engineer.</span>
+          <span>Web Developer.</span>
         </div>
       </div>
       <div className='save'>
