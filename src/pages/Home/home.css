@@ -15,7 +15,7 @@
 
 .home-message {
   text-align: left;
-  font-size: 4.5rem;
+  font-size: 3rem;
 }
 
 
@@ -83,19 +83,23 @@ span {
 }
 
 .spiderman {
-  max-width: 25rem;
+  max-width: 17rem;
   height: auto;
   margin: 0 auto;
   display: block;
   float: right;
   padding-left: 2rem;
+  /* animation: swing_spiderman 5s infinite; */
+}
+
+.swing {
   animation: swing_spiderman 5s infinite;
 }
 
 @keyframes swing_spiderman {
   0%{
     transform: translateY(-5deg);
-}
+  }
   30% {
     transform: translateY(0) rotate(5deg);
   }
@@ -106,6 +110,7 @@ span {
     transform: rotate(5deg);
   }
 }
+
 
 /* Mobile Styles */
 @media screen and (max-width: 767px) {
