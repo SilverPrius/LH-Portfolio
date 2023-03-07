@@ -1,16 +1,11 @@
-.my-name {
-  font-size: 5rem;
-  text-align: center;
-}
-
 .hi {
   text-align: center;
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 .your {
   text-align: left;
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 .home-message {
@@ -36,7 +31,7 @@
 
 .rotating-words {
   overflow: hidden;
-  font-size: 5rem;
+  font-size: 6rem;
   position: relative;
 }
 
@@ -141,7 +136,7 @@ span {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
 
   .home-main {
     gap: .5rem;

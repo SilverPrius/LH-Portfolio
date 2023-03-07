@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     ScrollReveal().reveal('.my-name', { origin: 'top', distance: '30rem', duration: 2000 });
     ScrollReveal().reveal('.your', { delay: 2000, origin: 'left', distance: '1rem', duration: 2000 });
-    ScrollReveal().reveal('.wrapper', { delay: 3100, scale: 0.75, duration: 2000 });
+    ScrollReveal().reveal('.wrapper', { delay: 3200, scale: 0.75, duration: 2000 });
     ScrollReveal().reveal('.home-message', { delay: 5000, scale: 0.25, origin: 'bottom', distance: '1rem', duration: 2000 });
     ScrollReveal().reveal('.spiderman', { delay: 6000, origin: 'top', distance: '15rem', duration: 2000, afterReveal: function (domEl) {
         domEl.classList.add('swing');
