@@ -5,22 +5,26 @@
 
 .hi {
   text-align: center;
-  /* margin-left: 5rem; */
   font-size: 5rem;
 }
 
 .your {
   text-align: left;
-  /* margin-left: 5rem; */
   font-size: 5rem;
 }
+
+.home-message {
+  text-align: left;
+  font-size: 4.5rem;
+}
+
 
 .home-main {
   height: 90vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding-top: 10rem;
 }
 
 .wrapper {
@@ -75,6 +79,31 @@ span {
 
   100% {
     transform: translateY(-400%);
+  }
+}
+
+.spiderman {
+  max-width: 25rem;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  float: right;
+  padding-left: 2rem;
+  animation: swing_spiderman 5s infinite;
+}
+
+@keyframes swing_spiderman {
+  0%{
+    transform: translateY(-5deg);
+}
+  30% {
+    transform: translateY(0) rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
   }
 }
 
