@@ -210,14 +210,18 @@ span {
 
 @media screen and (max-width: 300px) {
   .hi, .rotating-words, .your {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .wrapper {
-    height: 1.55rem;
+    height: 1.19rem;
   }
 
   .home-message {
-    font-size: 1.3rem;
+    font-size: 1rem;
+  }
+
+  .spiderman {
+    width: 11rem;
   }
 }
