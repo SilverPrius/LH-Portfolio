@@ -6,6 +6,7 @@ html.sr .load-hidden {
   display: flex;
   flex-direction: column;
   padding-top: 10rem;
+  max-width: 100vw;
 }
 
 .projects-inner {
@@ -26,6 +27,7 @@ html.sr .load-hidden {
   max-width: 700px;
   object-fit: cover;
   border-radius: 10px;
+  margin: 0 auto
 }
 
 .project-description {
@@ -86,7 +88,7 @@ html.sr .widget {
   visibility: hidden;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1300px) {
   .projects {
     flex-direction: row;
     flex-wrap: wrap;
@@ -96,11 +98,52 @@ html.sr .widget {
   .project-container {
     flex-direction: row;
     height: 500px;
-    width: 100%;
     gap: 2rem;
   }
 
   .project-container.reverse {
     flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width: 1135px) {
+  .projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project-container {
+    flex-direction: row;
+    height: 500px;
+    gap: 2rem;
+  }
+
+  .project-container.reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project-container {
+    flex-direction: row;
+    height: 500px;
+    gap: 2rem;
+  }
+
+  .project-container.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .project-image {
+      max-width: 100%;
+      height: auto;
+  
   }
 }
