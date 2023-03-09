@@ -225,3 +225,21 @@ span {
     width: 11rem;
   }
 }
+
+@media screen and (max-width: 200px) {
+  .hi, .rotating-words, .your {
+    font-size: .75rem;
+  }
+
+  .wrapper {
+    height: .94rem;
+  }
+
+  .home-message {
+    font-size: .75rem;
+  }
+
+  .spiderman {
+    width: 7rem;
+  }
+}
