@@ -1,3 +1,9 @@
+* {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 /* Small Screens max width 576px */
 @media screen and (max-width: 576px) {
     .skills-title {
@@ -28,7 +34,7 @@
         justify-content: center;
         align-items: center;
         padding-top: 10rem;
-        height: 90vh;
+        height: 100vh;
     }
 
     .skill {
