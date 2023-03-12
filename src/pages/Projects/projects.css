@@ -88,7 +88,7 @@ html.sr .widget {
   visibility: hidden;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
   .projects {
     flex-direction: row;
     flex-wrap: wrap;
@@ -106,25 +106,8 @@ html.sr .widget {
   }
 }
 
-@media screen and (min-width: 1135px) {
-  .projects {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 
-  .project-container {
-    flex-direction: row;
-    height: 500px;
-    gap: 2rem;
-  }
-
-  .project-container.reverse {
-    flex-direction: row-reverse;
-  }
-}
-
-@media screen and (min-width: 769px) {
+@media screen and (max-width: 1199px) {
   .projects {
     flex-direction: row;
     flex-wrap: wrap;
@@ -142,8 +125,11 @@ html.sr .widget {
   }
 
   .project-image {
-      max-width: 100%;
       height: auto;
-  
   }
+
+  .projects-inner {
+    width: auto;
+  }
+
 }
