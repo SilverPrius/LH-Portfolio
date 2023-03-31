@@ -14,7 +14,7 @@
 .contact-title {
     font-size: 4rem;
     padding-bottom: 3.5rem;
-    text-align: right;
+    text-align: center;
 }
 
 .contact-body {
@@ -80,7 +80,7 @@ margin-right: 15rem;
 font-size: 3rem;
 }
 
-.form-message {
+.form-message, .contact-info-message{
     font-size: 3rem;
     font-style: italic;
 }
