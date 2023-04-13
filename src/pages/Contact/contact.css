@@ -22,16 +22,18 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0 1.5rem;
+    gap: 10rem;
 }
 
 form {
     display: flex;
     flex-direction: column;
     gap: .5rem;
-
+    margin-bottom: 5rem;
 }
 
-input, textarea{
+input,
+textarea {
     width: 100%;
     padding: .8rem;
     border: thin;
@@ -44,7 +46,8 @@ label {
     margin: 1rem;
 }
 
-#contact-button, #download-btn {
+#contact-button,
+#download-btn {
     width: 25%;
     margin-left: 0.5rem;
     display: flex;
@@ -61,11 +64,11 @@ p {
     font-size: 1.8rem;
 }
 
-.contact-name{
+.contact-name {
     font-size: 2.5rem;
 }
 
-.connected-text{
+.connected-text {
     font-size: 3rem;
     display: flex;
 }
@@ -76,17 +79,17 @@ p {
 }
 
 .contact-info-message {
-margin-right: 15rem;
-font-size: 3rem;
+    font-size: 3rem;
 }
 
-.form-message, .contact-info-message{
+.form-message,
+.contact-info-message {
     font-size: 3rem;
-    font-style: italic;
+    text-align: center;
 }
 
 .contact-message {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
@@ -94,7 +97,7 @@ font-size: 3rem;
     font-size: xx-large;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .contact-form {
       width: 100%;
       margin: 0;
@@ -111,25 +114,62 @@ font-size: 3rem;
       font-size: 1rem;
       line-height: 1.5;
     }
-  }
-  
-  /* For medium devices (tablets) */
-  @media only screen and (min-width: 601px) and (max-width: 992px) {
+  } */
+
+/* For medium devices (tablets) */
+@media only screen and (max-width: 992px) {
+
+    .contact-body {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
     .contact-form {
-      width: 80%;
-      margin: 0 auto;
+        width: 80%;
+        margin: 0 auto;
     }
-    
+
     .form-group {
-      width: 100%;
-      margin-bottom: 1rem;
+        width: 100%;
+        margin-bottom: 1rem;
     }
-    
+
     .form-control {
-      width: 100%;
-      padding: .375rem .75rem;
-      font-size: 1.2rem;
-      line-height: 1.5;
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 1.2rem;
+        line-height: 1.5;
     }
-  }
-  
+
+    p,
+    .icon {
+        font-size: 1.4rem;
+    }
+
+    .btn {
+        font-size: .8rem !important;
+    }
+
+    .form-message,
+    .contact-info-message {
+        font-size: 2.3rem;
+    }
+
+}
+
+@media only screen and (max-width: 776px) {
+
+    .form-message,
+    .contact-info-message {
+        font-size: 2.2rem;
+    }
+
+    .contact-name {
+        font-size: 1.8rem;
+    }
+    .contact-message {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+}

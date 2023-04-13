@@ -18,7 +18,7 @@ const Contact = () => {
         <div className='contact-title'>Contact Me<hr></hr></div>
         <div className='contact-body'>
           <div className='contact-card'>
-            <p className='contact-info-message'>Let's Stay Connected</p>
+            <p className='contact-info-message'><strong>Let's Stay Connected</strong></p>
             <br />
 
             <p className='contact-name'><strong>Long Hoang</strong></p>
@@ -34,7 +34,7 @@ const Contact = () => {
             <p className='contact-message'><strong>I look forward to collaborating with you!</strong></p>
           </div>
           <div className='form'>
-            <div className='form-message'>Leave Me A Message</div>
+            <div className='form-message'><strong>Leave Me A Message</strong></div>
             <br />
             <form
               name="contact"
