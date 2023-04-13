@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Nav from "./components/Nav";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
