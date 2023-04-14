@@ -3,9 +3,9 @@ import { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
 
 function Skills() {
-    useEffect(() => {
-        ScrollReveal().reveal('.skills', { delay: 500, origin: 'bottom', distance: '10rem', duration: 1000, easing: 'ease-in-out' });
-      }, []);
+  useEffect(() => {
+    ScrollReveal().reveal('.skills', { delay: 500, origin: 'bottom', distance: '10rem', duration: 1000, easing: 'ease-in-out' });
+  }, []);
   const skills = [
     { id: 1, source: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", alt: "The logo icon for HTML 5", title: "HTML 5" },
     { id: 2, source: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", alt: "The logo icon for CSS3", title: "CSS 3" },
@@ -23,14 +23,16 @@ function Skills() {
 
   return (
     <div className="skills">
+      <div className='skills-inner'>
         <div className='skills-title'>MY SKILLS<hr></hr></div>
-      <div className="skillsGrid">
-        {skills.map(skill => (
-          <div className='skill' key={skill.id}>
-            <img src={skill.source} alt={skill.alt} title={skill.title} />
-            <div className='skill-title'>{skill.title}</div>
-          </div>
-        ))}
+        <div className="skillsGrid">
+          {skills.map(skill => (
+            <div className='skill' key={skill.id}>
+              <img src={skill.source} alt={skill.alt} title={skill.title} />
+              <div className='skill-title'>{skill.title}</div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
