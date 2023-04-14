@@ -118,6 +118,10 @@ span {
 
 @media screen and (max-width: 1000px) {
 
+  .home-main{
+  padding-top: 8rem
+  }
+
   .hi, .your, .rotating-words {
     font-size: 4rem;
   }
@@ -164,6 +168,10 @@ span {
 }
 
 @media screen and (max-width: 660px) {
+  
+  .home-main{
+    padding-top: 7rem
+    }
 
   .hi, .rotating-words, .your {
     font-size: 2.5rem;
