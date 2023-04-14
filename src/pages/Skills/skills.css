@@ -1,8 +1,9 @@
 /* Small Screens max width 576px */
 @media screen and (max-width: 576px) {
     .skills-title {
-        font-size: 4rem;
+        font-size: 2.2rem;
         margin-bottom: 2rem;
+        text-align: center;
     }
 
     .skills-inner {
@@ -10,6 +11,7 @@
         display: flex;
         height: 90vh;
         flex-direction: column;
+        width: 95%;
     }
 
     .skillsGrid {
