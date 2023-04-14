@@ -15,7 +15,7 @@ const Contact = () => {
   return (
     <div className='contact-main'>
       <div className='contact-inner'>
-        <div className='contact-title'>Contact Me<hr></hr></div>
+        <div className='contact-title'>CONTACT ME<hr></hr></div>
         <div className='contact-body'>
           <div className='contact-card'>
             <p className='contact-info-message'><strong>Let's Stay Connected</strong></p>

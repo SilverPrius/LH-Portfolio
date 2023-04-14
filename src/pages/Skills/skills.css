@@ -3,7 +3,7 @@
     .skills-title {
         font-size: 2.2rem;
         margin-bottom: 2rem;
-        margin-top: 12rem
+        /* margin-top: 12rem */
     }
 
     .skillsGrid {
@@ -27,8 +27,8 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        /* padding-top: 10rem; */
-        height: 100vh;
+        padding-top: 7rem;
+        min-height: 90vh;
     }
 
     .skill {
@@ -38,7 +38,7 @@
     .skill-title {
         font-size: 1.4rem;
         font-family: 'Oswald', sans-serif;
-        padding-top: .5rem;
+        /* padding-top: .5rem; */
     }
 
 }
@@ -65,7 +65,8 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        min-height: 90vh;
+        padding-top: 7rem;
     }
 
     .skills-title {
@@ -105,7 +106,8 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        min-height: 90vh;
+        padding-top: 7rem;
     }
 
     .skills-title {
@@ -137,7 +139,8 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        height: 110vh;
+        min-height: 90vh;
+        padding-top: 7rem;
     }
 
     .skills-title {
@@ -174,7 +177,8 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        height: 120vh;
+        min-height: 90vh;
+        padding-top: 7rem;
     }
 
     .skills-title {
@@ -185,7 +189,7 @@
      .skill-title {
         font-size: 1.8rem;
         font-family: 'Oswald', sans-serif;
-        padding-top: 1rem;
+        /* padding-top: 1rem; */
     }
 }
 
@@ -211,7 +215,8 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        min-height: 90vh;
+        padding-top: 7rem;
     }
 
     .skills-title {

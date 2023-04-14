@@ -1,7 +1,7 @@
 .contact-main {
     display: flex;
     flex-direction: column;
-    padding-top: 10rem;
+    padding-top: 7rem;
 }
 
 .contact-inner {
@@ -143,33 +143,61 @@ p {
 
     p,
     .icon {
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
 
     .btn {
-        font-size: .8rem !important;
+        font-size: .7rem !important;
     }
 
     .form-message,
     .contact-info-message {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
 }
 
 @media only screen and (max-width: 776px) {
 
+    .contact-inner {
+        width: 95%;
+    }
+
     .form-message,
     .contact-info-message {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 
     .contact-name {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .contact-message {
-        font-size: 1.4rem;
-        text-align: center;
+        display: none;
     }
 
-}
+    .contact-title {
+        font-size: 2.2rem;
+    }
+
+    .contact-title {
+        padding-bottom: 2rem;
+    }
+
+    p,
+    .icon {
+        font-size: 1.3rem;
+    }
+
+    .contact-body {
+        gap: 2rem;
+    }
+
+    label {
+        font-size: 1.2rem;
+    }
+    
+    form {
+        margin-bottom: 2rem;
+    }
+
+    }
