@@ -146,8 +146,8 @@ p {
         font-size: 2rem;
     }
 
-    .btn {
-        font-size: .7rem !important;
+    #download-btn {
+        font-size: 1rem;
     }
 
     .form-message,
@@ -198,6 +198,10 @@ p {
     
     form {
         margin-bottom: 2rem;
+    }
+
+    #download-btn {
+        font-size: .7rem;
     }
 
     }
