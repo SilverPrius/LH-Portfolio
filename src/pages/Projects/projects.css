@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 7rem;
-  min-width: 100vw;
+  /* min-width: 100vw; */
 }
 
 .projects-inner {
@@ -120,17 +120,31 @@
     display: block;
     height: auto;
     max-width: 100%;
-    margin-bottom: 1rem;
     border-radius: 10px;
   }
 
   .project-description {
-    margin-top: 1rem;
     text-align: justify;
   }
 
   .project-subtitle {
     margin-bottom: 2rem;
+    font-size: 1.2rem;
+  }
+
+  .project-title {
+    font-size: 2rem;
+  }
+
+}
+
+@media only screen and (max-width: 776px) {
+  .projects-title {
+    font-size: 2.2rem;
+  }
+
+  .projects-inner {
+    width: 100%;
   }
 
 }
