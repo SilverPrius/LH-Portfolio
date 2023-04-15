@@ -1,12 +1,8 @@
-html.sr .load-hidden {
-  visibility: hidden;
-}
-
 .projects-main {
   display: flex;
   flex-direction: column;
   padding-top: 7rem;
-  max-width: 100vw;
+  min-width: 100vw;
 }
 
 .projects-inner {
@@ -18,7 +14,7 @@ html.sr .load-hidden {
 
 .projects-title {
   font-size: 4rem;
-  padding-bottom: 3.5rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 
@@ -27,7 +23,11 @@ html.sr .load-hidden {
   max-width: 700px;
   object-fit: cover;
   border-radius: 10px;
-  margin: 0 auto
+  margin: 0 auto;
+}
+
+.project-image2 {
+  display: none;
 }
 
 .project-description {
@@ -53,7 +53,6 @@ html.sr .load-hidden {
   padding: 3rem;
   border-radius: 20px;
   position: relative;
-  /* overflow: hidden; */
   text-align: center;
   margin: auto;
   gap: 2rem;
@@ -67,7 +66,7 @@ html.sr .load-hidden {
 .project-btns {
   font-size: 1.2rem;
   display: flex;
-  flex: row;
+  flex-direction: row;
   justify-content: center;
   gap: 1rem;
 }
@@ -82,10 +81,6 @@ html.sr .load-hidden {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-html.sr .widget {
-  visibility: hidden;
 }
 
 @media screen and (min-width: 1200px) {
@@ -106,30 +101,36 @@ html.sr .widget {
   }
 }
 
-
 @media screen and (max-width: 1199px) {
-  .projects {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
   .project-container {
-    flex-direction: row;
-    height: 500px;
-    gap: 2rem;
+    height: auto;
+    padding: 2rem;
+    border-radius: 10px;
   }
 
-  .project-container.reverse {
-    flex-direction: row-reverse;
+  .project-btns {
+    flex-direction: row;
   }
 
   .project-image {
-      height: auto;
+    display: none;
   }
 
-  .projects-inner {
-    width: auto;
+  .project-image2 {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+
+  .project-description {
+    margin-top: 1rem;
+    text-align: justify;
+  }
+
+  .project-subtitle {
+    margin-bottom: 2rem;
   }
 
 }

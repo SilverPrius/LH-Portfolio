@@ -1,11 +1,12 @@
-import '../Projects/projects.css'
-import { projects } from '../../components/data'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub,  } from "@fortawesome/free-brands-svg-icons"
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
-
 import { useEffect } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import ScrollReveal from 'scrollreveal';
+
+import { projects } from '../../components/data';
+
+import '../Projects/projects.css';
 
 const Projects = () => {
   useEffect(() => {
@@ -26,6 +27,7 @@ const Projects = () => {
               <div className="project-info">
                 <h2 className="project-title">{project.title}</h2>
                 <br /><h3 className="project-subtitle">{project.subtitle}</h3>
+                <img src={project.image} alt={project.title} onError={(e) => console.log(e.target.error)} className='project-image2' />
                 <p className="project-description">{project.description}</p>
 
                 <br /><div className="project-btns">
@@ -52,4 +54,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Projects;
